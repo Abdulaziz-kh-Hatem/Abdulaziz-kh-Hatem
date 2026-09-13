@@ -1,6 +1,6 @@
 ﻿# Abdulaziz K. A. Hatem, B.Eng.
 
-Biomedical Engineer | Physiological Signal Processing and Biosensors  
+Biomedical Engineer | Physiological Signal Processing, Biosensors & Health AI  
 Department of Biomedical Engineering, University of Science and Technology, Aden, Yemen  
 Email: [a.kh.hatem@gmail.com](mailto:a.kh.hatem@gmail.com) | [a.hatem@student.ust.edu](mailto:a.hatem@student.ust.edu)  
 Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAAJ) | [ORCID (0009-0007-9681-5165)](https://orcid.org/0009-0007-9681-5165) | [ResearchGate](https://researchgate.net/profile/Abdulaziz-Hatem-3) | [LinkedIn](https://linkedin.com/in/abdulazizhatem)
@@ -9,17 +9,23 @@ Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAA
 
 ## About Me
 
-I am a Biomedical Engineering graduate from the University of Science and Technology (UST) in Aden, Yemen. I finished my Bachelor of Engineering degree with a cumulative score of 92.0% (GPA: 4.0 / 4.0), ranking 3rd out of 40 students across all four years.
+I graduated with a Bachelor of Engineering (B.Eng.) in Biomedical Engineering from the University of Science and Technology (UST) in Aden, Yemen, with a cumulative score of 92.0% (GPA: 4.0 / 4.0), ranking 3rd in my cohort across all four academic years.
 
-My research and engineering work focuses on:
-- Designing discrete Analog Front-End (AFE) circuits for low-amplitude biopotentials (EOG, ECG, PPG).
-- Digital signal processing (filtering, baseline wander removal, and wavelet transforms).
-- Embedded telemetry for physiological monitoring and assistive communication interfaces.
-- Practical machine learning workflows for biomedical data, with an emphasis on patient-wise evaluation.
+My core research competencies center on:
+- **Biopotential Instrumentation & Analog Front-End (AFE) Design:** Multi-stage amplification (AD620, TL072), active filtering (Sallen-Key, Twin-T Notch), level shifting, and symmetric dual-supply battery management for microvolt ocular biopotentials.
+- **Embedded Digital Signal Processing & Assistive Systems:** Real-time biopotential acquisition, causal filtering, adaptive thresholding, and assistive HCI interfaces for motor-impaired individuals (ALS / Locked-in Syndrome).
+- **Personalized Health AI & Edge Computing:** Subject-specific arrhythmia classification (PVC detection on MIT-BIH) using hybrid feature selection (Random Forest + XGBoost) and lightweight Decision Trees exportable to low-cost microcontrollers (ESP32).
 
-I completed an institutional research grant from my department to build low-cost biopotential acquisition hardware, which resulted in a first-author paper published in *Electrotehnica, Electronica, Automatica (EEA)* in 2026. My senior capstone thesis on an EOG-driven typing keyboard and wheelchair interface was graded 100% (Distinction with Highest Honors).
+I am actively seeking an advisor and research group for funded Master of Science (MSc) studies in Biomedical Engineering, with a focus on biosignal processing and intelligent medical instrumentation.
 
-I am currently applying for funded Master of Science (MSc) positions in Biomedical Engineering and Physiological Signal Processing.
+---
+
+## Primary Research & Engineering Repositories
+
+| Project Repository | Domain & Architecture | Methods & Toolchain | Quantitative Validation |
+| :--- | :--- | :--- | :--- |
+| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | Assistive Neurotechnology (Senior Capstone Thesis, 100% Distinction) | AD620 AFE, active TL072 filters, ATmega328P, HC-SR04, MATLAB, Python | Validated with N=5 healthy participants. 94.0% wheelchair navigation accuracy (143 ms latency) and 16.0 characters/min Arabic virtual speller typing throughput. |
+| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Computational Cardiology & Edge AI (Research Study for iJOE) | Subject-specific calibration, 32 candidate features, Dual-Voting, Decision Tree | Evaluated on 15 MIT-BIH patients with strict 70/30 chronological split. >99% accuracy, >98% sensitivity, <3 KB RAM on ESP32 (~20 μs latency per beat). |
 
 ---
 
@@ -28,44 +34,29 @@ I am currently applying for funded Master of Science (MSc) positions in Biomedic
 * **Abdulaziz K.A. Hatem**, Ahmed M.A.S. AlKadhi, Mohammed A A. Qasem, Khaled A.M. Farhan, and Nasr Kaid Ali AL-Audi.  
   "Design and Development of a Low-Cost Electronic Platform for Electrooculography Signals Acquisition."  
   *Electrotehnica, Electronica, Automatica (EEA)*, vol. 74, no. 2, pp. 130-137, 2026. ISSN 1582-5175.  
-  DOI: [10.46904/eea.26.74.2.1108016](https://doi.org/10.46904/eea.26.74.2.1108016)  
-  Hardware schematics, firmware, and signal processing scripts are available at:  
-  [github.com/Abdulaziz-kh-Hatem/eog-electronic-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-electronic-acquisition-platform)
+  DOI: [10.46904/eea.26.74.2.1108016](https://doi.org/10.46904/eea.26.74.2.1108016)
 
 ---
 
-## Selected Engineering & Research Repositories
+## Technical Skills
 
-| Project Repository | Domain | Methods and Tools | Results and Validation |
-| :--- | :--- | :--- | :--- |
-| [eog-electronic-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-electronic-acquisition-platform) | Biopotential Instrumentation (Published Paper) | AD620 AFE, active LM741 filters, C++ firmware, Python | Complete reproduction package for our EEA 2026 publication. Evaluated SNR: 32.13 dB for voluntary blinks. |
-| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | Assistive Systems (Capstone Thesis, 100%) | MATLAB DSP Toolbox, Python, UART, Arduino | Virtual typing interface (16 characters/min) and wheelchair control (92% directional accuracy). |
-| [project-nabdh-dual-physio-monitor](https://github.com/Abdulaziz-kh-Hatem/project-nabdh-dual-physio-monitor) | Telemetry & Biosensors (Hackathon 1st Place) | Dual ECG and optical PPG, interleaved ADC, Python | Built in 36 hours. Synchronous acquisition of Lead-II ECG and PPG to calculate Pulse Transit Time (PTT ~244 ms). |
-| [ecg-qrs-detection-benchmark](https://github.com/Abdulaziz-kh-Hatem/ecg-qrs-detection-benchmark) | Signal Processing & Benchmark Study | Pan-Tompkins algorithm vs. Wavelet Energy, PhysioNet | Evaluated on ECG data with simulated baseline wander. 100% sensitivity within +-50 ms AAMI tolerance window. |
-
----
-
-## Technical Background
-
-- **Hardware & Circuit Prototyping:** Biopotential instrumentation amplifiers (AD620), active filter design (Sallen-Key topology with LM741 / TL072), level shifters, single-supply virtual ground circuits, PCB layout in EasyEDA, circuit simulation in Proteus, and oscilloscope measurements.
-- **Signal Processing Methods:** Digital IIR/FIR filter implementation, Butterworth bandpass and notch filters, zero-phase filtering (`filtfilt`), moving average smoothing, Discrete Wavelet Transform (DWT), and Heart Rate Variability (HRV) metrics.
-- **Software & Tools:** Python (NumPy, SciPy, Pandas, Matplotlib, Scikit-learn, WFDB), MATLAB (DSP System Toolbox), C/C++ for ATmega328P microcontrollers, Git version control, and LaTeX for technical reports.
-- **Experimental Discipline:** Strict patient-wise data partitioning for machine learning models to prevent data leakage, honest reporting of hardware limitations, and open-source reproducibility.
+- **Hardware Engineering:** Analog Front-End (AFE) circuit design, biopotential instrumentation amplifiers (AD620), active Sallen-Key high-pass and low-pass filters, Twin-T 50 Hz notch filters, variable gain stages (TL072), DC level shifting (+2.5V), dual-rail battery power management (+-9V with 18650 cells & BMS), PCB layout in EasyEDA, and simulation in Proteus.
+- **Microcontrollers & Firmware:** ATmega328P ADC sampling, UART / HC-05 Bluetooth communication, ultrasonic obstacle avoidance (HC-SR04), motor actuation via L298N dual H-bridge drivers, and C++ decision tree inference for ESP32.
+- **Signal Processing & Data Analysis:** Causal IIR digital filtering (`scipy.signal.lfilter`), baseline wander removal, moving-average smoothing, asymmetric cardiac segmentation (300 ms window), time-domain and frequency-domain feature extraction, and Hjorth parameters.
+- **Machine Learning & Edge AI:** Feature selection using ensemble importance (Random Forest Gini and XGBoost gain), decision tree classifiers with depth optimization, patient-specific calibration templates, and chronological train/test splitting.
+- **Scientific Software:** Python (NumPy, SciPy, Pandas, Scikit-learn, WFDB, Matplotlib), MATLAB (DSP System Toolbox), Git, and LaTeX.
 
 ---
 
 ## Academic Honors & Grants
 
-- **Undergraduate Scientific Research Grant (2024 - 2025):** Department of Biomedical Engineering, UST Aden. Provided component funding to fabricate and test low-cost EOG acquisition PCBs.
-- **1st Place Winner (Champion) - Digital Fabrication & Local Solutions Hackathon (February 2026):** Faculty of Engineering & Computing, UST Aden. Developed the Project "Nabdh" dual ECG/PPG monitor in 36 hours.
-- **Senior Capstone Thesis Evaluation (100% Distinction with Highest Honors):** Evaluated by academic committee under Dr. Nasr Kaid Ali AL-Audi.
-- **Dean's List for Academic Excellence (2022 - 2026):** Ranked 3rd in class across all four years of undergraduate study.
+- **Senior Capstone Thesis Evaluation (100% Distinction with Highest Honors):** Evaluated by academic jury under Dr. Nasr Kaid Ali AL-Audi, Department of Biomedical Engineering, UST Aden.
+- **Dean's List for Academic Excellence (2022 - 2026):** Maintained 3rd rank across all four undergraduate engineering cohorts (Cumulative 92.0%, GPA 4.0/4.0).
+- **Undergraduate Scientific Research Grant (2024 - 2025):** Awarded component funding by UST Aden to fabricate and evaluate low-cost biopotential acquisition PCBs.
 
 ---
 
 ## Contact
 
-I am actively preparing research proposals and seeking an advisor for Master of Science (MSc) studies in Biomedical Engineering.
-
 - Email: [a.kh.hatem@gmail.com](mailto:a.kh.hatem@gmail.com) / [a.hatem@student.ust.edu](mailto:a.hatem@student.ust.edu)
-- Academic Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAAJ) | [ORCID: 0009-0007-9681-5165](https://orcid.org/0009-0007-9681-5165)
+- Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAAJ) | [ORCID (0009-0007-9681-5165)](https://orcid.org/0009-0007-9681-5165) | [ResearchGate](https://researchgate.net/profile/Abdulaziz-Hatem-3) | [LinkedIn](https://linkedin.com/in/abdulazizhatem)
