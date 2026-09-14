@@ -1,4 +1,4 @@
-﻿# Abdulaziz K. A. Hatem, B.Eng.
+# Abdulaziz K. A. Hatem, B.Eng.
 
 Biomedical Engineer | Physiological Signal Processing, Biosensors & Medical Instrumentation  
 Department of Biomedical Engineering, University of Science and Technology, Aden, Yemen  
@@ -25,9 +25,9 @@ I am actively seeking an advisor and research group for funded Master of Science
 
 | Project Repository | Domain & Architecture | Methods & Toolchain | Quantitative Validation |
 | :--- | :--- | :--- | :--- |
-| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | Assistive Neurotechnology & HCI (Senior Capstone Thesis, 100% Distinction) | Custom AD620 AFE, active TL072 filters, ATmega328P, HC-SR04, MATLAB, Arduino C/C++ | Validated with N=5 healthy participants. 94.0% wheelchair navigation accuracy (143 ms latency) and 16.0 characters/min typing throughput on a custom Arabic optical speller. |
+| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | Assistive Neurotechnology & HCI (Senior Capstone Thesis, 100% Distinction) | Custom AD620 AFE, active TL072 filters, ATmega328P, HC-SR04, MATLAB, Arduino C/C++ | Validated with N=5 healthy participants. 94.0% wheelchair navigation accuracy (143 ms DSP decoding latency) and 16.0 characters/min typing throughput on a custom Arabic optical speller. |
 | [nabdh-vital-signs-prototype](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype) | Vital Signs Monitoring & Rapid Prototyping (1st Place Hackathon Winner) | AD8232 ECG, MAX30102 PPG, Embedded Microcontroller, 3D CAD Enclosure, LCD | Developed during a 36-hour hackathon. Full functional prototype validated on human volunteers with live video demonstration. |
-| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Computational Cardiology & Edge AI (Research Study for iJOE) | Subject-specific calibration, 32 candidate features, Dual-Voting, Decision Tree | Evaluated on 15 MIT-BIH patients with strict 70/30 chronological split. >99% accuracy, >98% sensitivity, <3 KB RAM on ESP32 (~20 µs latency per beat). |
+| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Computational Cardiology & Edge AI (Research Study for iJOE) | Subject-specific calibration, 32 candidate features, Dual-Voting, Decision Tree | Evaluated on 15 MIT-BIH patients with strict 70/30 chronological split. >99% accuracy, >98% sensitivity, <3 KB RAM on ESP32 (~20 µs decision tree inference per beat). |
 
 ---
 
