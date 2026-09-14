@@ -9,26 +9,26 @@ Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAA
 
 ## About Me
 
-I graduated with a Bachelor of Engineering (B.Eng.) in Biomedical Engineering from the University of Science and Technology (UST) in Aden, Yemen, with a cumulative score of 92.0% (GPA: 4.0 / 4.0), ranking 3rd in my cohort across all four academic years.
+I recently graduated with a Bachelor of Engineering (B.Eng.) in Biomedical Engineering from the University of Science and Technology (UST) in Aden, Yemen. I finished with a score of 92.0% (GPA: 4.0 / 4.0) and ranked 3rd in my class across all four academic years.
 
-My core research competencies center on:
-- **Biopotential Instrumentation & Analog Front-End (AFE) Design:** Multi-stage discrete amplification (AD620, TL072), active filtering (Sallen-Key band-pass, Twin-T 50 Hz notch), baseline drift compensation, and dual-rail power supplies (+/-9V) for microvolt biopotential signals.
-- **Embedded Bio-Signal Acquisition & Assistive Systems:** Real-time biopotential acquisition, causal digital signal processing in MATLAB, threshold-based state machines, and assistive Human-Computer Interfaces (Arabic virtual speller & wheelchair control) for severe neuromuscular impairments.
-- **Rapid Medical Prototyping & Smart Manufacturing:** Rapid integration of biomedical sensor modules (ECG/PPG), microcontroller firmware, and custom 3D-printed device enclosures for functional clinical prototypes under hackathon constraints.
-- **Edge AI in Computational Cardiology:** Subject-specific arrhythmia classification (PVC detection on MIT-BIH) using hybrid feature selection (Random Forest + XGBoost) and lightweight Decision Trees for low-power edge microcontrollers (ESP32).
+My main research interests and skills include:
+- **Medical Hardware Design (Analog Front-End):** Building circuits to read very small electrical signals from the body. I use components like AD620 and TL072 to amplify signals and design active filters to remove 50 Hz powerline noise.
+- **Embedded Systems & Assistive Devices:** Writing code for microcontrollers to acquire medical signals in real-time. My graduation project used eye signals (EOG) to control a wheelchair and an Arabic virtual keyboard for paralyzed patients.
+- **Fast Medical Prototyping:** Combining sensors (ECG/PPG), microcontrollers, and 3D-printed cases to build working medical devices quickly, like during 36-hour hackathons.
+- **Machine Learning for Cardiology:** Using decision trees to detect heart problems (PVCs) directly on small microcontrollers (ESP32) instead of large computers. I worked on selecting the best features to make the model run very fast with high accuracy.
 
-I am actively seeking an advisor and research group for funded Master of Science (MSc) studies in Biomedical Engineering, with a focus on physiological signal processing, biosensors, and intelligent medical instrumentation.
+I am currently looking for an advisor and a research group for a funded Master of Science (MSc) program in Biomedical Engineering. I want to focus on signal processing, biosensors, and smart medical devices.
 
 ---
 
-## Primary Research & Engineering Repositories
+## My Projects
 
-| Project Repository | Domain & Architecture | Methods & Toolchain | Quantitative Validation |
+| Project | Description | Methods Used | Results |
 | :--- | :--- | :--- | :--- |
-| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | Assistive Neurotechnology & HCI (Senior Capstone Thesis, 100% Distinction) | Custom AD620 AFE, active TL072 filters, ATmega328P, HC-SR04, MATLAB, Arduino C/C++ | Validated with N=5 healthy participants. 94.0% wheelchair navigation accuracy (143 ms DSP decoding latency) and 16.0 characters/min typing throughput on a custom Arabic optical speller. |
-| [eog-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-acquisition-platform) | Low-Cost Biomedical Hardware (Published EEA Journal 2026) | Analog Front-End (AFE), AD620, TL072, Active Filters, Twin-T Notch, Oscilloscope Validation | Hardware prototype successfully acquired 50Hz noise-free EOG biosignals. This exact platform was peer-reviewed and published in the EEA Journal. |
-| [nabdh-vital-signs-prototype](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype) | Vital Signs Monitoring & Rapid Prototyping (1st Place Hackathon Winner) | AD8232 ECG, MAX30102 PPG, Embedded Microcontroller, 3D CAD Enclosure, LCD | Developed during a 36-hour hackathon. Full functional prototype validated on human volunteers with live video demonstration. |
-| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Computational Cardiology & Edge AI (Research Study for iJOE) | Subject-specific calibration, 32 candidate features, Dual-Voting, Decision Tree | Evaluated on 15 MIT-BIH patients with strict 70/30 chronological split. >99% accuracy, >98% sensitivity, <3 KB RAM on ESP32 (~20 μs decision tree inference per beat). |
+| [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | EOG Assistive System (Graduation Project, Grade: 100%) | Custom AD620 circuit, TL072 filters, ATmega328P, MATLAB, Arduino C++ | Tested on 5 users. Achieved 94.0% wheelchair control accuracy and 16.0 characters/min typing speed. |
+| [eog-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-acquisition-platform) | Low-Cost Biomedical Hardware (Published EEA Journal 2026) | Analog Front-End (AFE), AD620, TL072, Active Filters, Oscilloscope Validation | The hardware successfully read clear EOG signals without 50Hz noise. This work was peer-reviewed and published in the EEA Journal. |
+| [nabdh-vital-signs-prototype](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype) | Vital Signs Monitor (1st Place Hackathon Winner) | AD8232 ECG, MAX30102 PPG, Microcontroller, 3D Printed Case, LCD | Built during a 36-hour hackathon. The prototype successfully monitored human volunteers live. |
+| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Machine Learning on Edge Devices | Feature selection, Decision Trees | Tested on 15 MIT-BIH patients. Achieved >99% accuracy and >98% sensitivity using very little memory on an ESP32. |
 
 ---
 
@@ -43,25 +43,18 @@ I am actively seeking an advisor and research group for funded Master of Science
 
 ## Technical Skills
 
-- **Hardware Engineering:** Analog Front-End (AFE) circuit design, biopotential instrumentation amplifiers (AD620), active Sallen-Key high-pass and low-pass filters, Twin-T 50 Hz notch filters, variable gain stages (TL072), DC level shifting (+2.5V), dual-rail battery power management (+/-9V with 18650 cells & BMS), PCB layout in EasyEDA, and simulation in Proteus.
-- **Microcontrollers & Firmware:** ATmega328P ADC sampling, UART / HC-05 Bluetooth communication, ultrasonic obstacle avoidance (HC-SR04), motor actuation via L298N dual H-bridge drivers, and embedded C/C++ firmware.
-- **Signal Processing & Analysis:** Causal digital filtering, baseline wander removal, moving-average smoothing, physiological feature extraction (EOG, ECG, PPG), and Hjorth parameters in MATLAB.
-- **Machine Learning & Edge AI:** Feature selection using ensemble importance (Random Forest Gini and XGBoost gain), decision tree classifiers with depth optimization, patient-specific calibration templates, and chronological train/test splitting.
-- **Scientific Software & Tools:** MATLAB (DSP System Toolbox), Python (NumPy, SciPy, Pandas, Scikit-learn), Git, and LaTeX.
+- **Hardware:** Circuit design, biopotential amplifiers (AD620), active filters (Sallen-Key, Twin-T notch), battery power management, PCB layout in EasyEDA, and simulation in Proteus.
+- **Embedded Systems:** Arduino ADC sampling, UART/Bluetooth communication, ultrasonic sensors (HC-SR04), motor drivers (L298N), and C/C++ programming.
+- **Signal Processing:** Digital filtering, removing baseline wander, moving-average smoothing, and extracting features from EOG, ECG, and PPG signals using MATLAB.
+- **Machine Learning:** Feature selection, decision trees, patient-specific calibration, and strict train/test splitting.
+- **Software Tools:** MATLAB, Python (NumPy, SciPy, Pandas, Scikit-learn), Git, and LaTeX.
 
 ---
 
-## Academic Honors & Awards
+## Honors & Awards
 
-- **Senior Capstone Thesis Evaluation (100% Distinction with Highest Honors):** Evaluated by academic jury under Dr. Nasr Kaid Ali AL-Audi, Department of Biomedical Engineering, UST Aden (2026).
-- **1st Place Winner (Champion) — Smart Manufacturing & Local Solutions Hackathon:** Developed Project "Nabdh" (Pulse) during a 36-hour hackathon at UST Aden (Feb 2026).
-- **Dean's List for Academic Excellence (2022 - 2026):** Maintained 3rd rank across all four undergraduate engineering cohorts (Cumulative 92.0%, GPA 4.0/4.0).
-- **Youth Innovation & Entrepreneurship Award (2025):** Recognition shield for co-developing "Bio Skill Lab", an interactive 3D simulation tool for medical equipment.
-- **Undergraduate Scientific Research Grant (2024 - 2025):** Awarded component funding by UST Aden to fabricate and evaluate low-cost biopotential acquisition PCBs.
-
----
-
-## Contact
-
-- Email: [a.kh.hatem@gmail.com](mailto:a.kh.hatem@gmail.com) / [a.hatem@student.ust.edu](mailto:a.hatem@student.ust.edu)
-- Profiles: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAAJ) | [ORCID (0009-0007-9681-5165)](https://orcid.org/0009-0007-9681-5165) | [ResearchGate](https://researchgate.net/profile/Abdulaziz-Hatem-3) | [LinkedIn](https://linkedin.com/in/abdulazizhatem)
+- **Senior Capstone Thesis Evaluation (100% Distinction):** Highest honors from the academic jury at UST Aden (2026).
+- **1st Place Winner (Champion) - Smart Manufacturing Hackathon:** Built the "Nabdh" project during a 36-hour hackathon at UST Aden (Feb 2026).
+- **Dean's List for Academic Excellence (2022 - 2026):** Ranked 3rd in my class across all four years (Score 92.0%, GPA 4.0/4.0).
+- **Youth Innovation Award (2025):** Recognized for co-developing "Bio Skill Lab", a 3D simulation tool for medical equipment.
+- **Undergraduate Research Grant (2024 - 2025):** Received funding from UST Aden to buy components and test low-cost PCB prototypes.
