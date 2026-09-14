@@ -1,4 +1,4 @@
-﻿# Abdulaziz K. A. Hatem, B.Eng.
+# Abdulaziz K. A. Hatem, B.Eng.
 
 Biomedical Engineer | Physiological Signal Processing & Assistive Technologies for Neuromuscular Disorders (ALS, LIS)  
 Department of Biomedical Engineering, University of Science and Technology (UST), Aden, Yemen  
@@ -32,14 +32,14 @@ University of Science and Technology (UST), Aden, Yemen (Graduation: July 2026)
 | [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) | EOG-Based Assistive HCI Platform | Analog Front-End (AD620, TL072 filters), ATmega328P, MATLAB, Arduino C++ | 94.0% directional control accuracy; 16.0 characters/min typing speed. |
 | [eog-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-acquisition-platform) | Low-Cost EOG Hardware | AD620, active bandpass/notch filters, PCB design | Hardware successfully acquired EOG signals; peer-reviewed and published in EEA Journal. |
 | [nabdh-vital-signs-prototype](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype) | Hardware Hackathon Prototype | AD8232 ECG, MAX30102 PPG, MCU | Developed portable dual-channel ECG and PPG acquisition prototype during 36-hour hackathon. |
-| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Subject-Specific PVC Detection | Feature selection (Random Forest/XGBoost), Decision Trees | >99% accuracy; >98% sensitivity with <3 KB memory footprint on ESP32. |
+| [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32) | Subject-Specific PVC Detection | Dual-Voting (Random Forest & XGBoost), Decision Trees, Python | 99.69% accuracy; 98.19% sensitivity; <3 KB footprint for theoretical MCU deployment. |
 
 ---
 
 ## Technical Skills
 
 * **Hardware & Circuit Design:** Analog Front-End (AFE) Design, Biopotential Amplifiers (AD620, Op-Amps), PCB Design, Oscilloscopes, Soldering.
-* **Programming & DSP:** MATLAB (DSP System Toolbox), C/C++ (Arduino Embedded Systems), Python.
+* **Programming, DSP & ML:** Python (`wfdb`, `scipy`, `scikit-learn`, `xgboost`, `pandas`, `numpy`), MATLAB (DSP System Toolbox), C/C++ (Arduino Embedded Systems).
 * **Software Tools:** Proteus, EasyEDA, OriginLab, Mendeley, LaTeX, Git.
 
 ---
