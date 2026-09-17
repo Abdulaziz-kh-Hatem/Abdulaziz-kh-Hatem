@@ -20,7 +20,7 @@ University of Science and Technology (UST), Aden, Yemen (Graduation: July 2026)
 
 * **Abdulaziz K.A. Hatem**, Ahmed M.A.S. AlKadhi, Mohammed A A. Qasem, Khaled A.M. Farhan, Nasr Kaid Ali AL-Audi.  
   "Design and Development of a Low-Cost Electronic Platform for Electrooculography Signals Acquisition."  
-  *Electrotehnica, Electronica, Automatica (EEA)*, 2026, vol. 74, no. 2, pp. 130-137.  
+  *Electrotehnica, Electronica, Automatica (EEA)*, 2026, vol. 74, no. 2, pp. 130-137, ISSN 1582-5175.  
   DOI: [10.46904/eea.26.74.2.1108016](https://doi.org/10.46904/eea.26.74.2.1108016)
 
 ---
