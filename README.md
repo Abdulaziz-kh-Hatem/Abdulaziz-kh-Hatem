@@ -1,6 +1,6 @@
 # Abdulaziz K. A. Hatem, B.Eng.
 
-Biomedical Engineer | Physiological Signal Processing & Assistive Technologies for Neuromuscular Disorders (ALS, LIS)  
+Biomedical Engineer | Biomedical Signals, Machine Learning & HCI  
 Department of Biomedical Engineering, University of Science and Technology (UST), Aden, Yemen  
 Email: [a.kh.hatem@gmail.com](mailto:a.kh.hatem@gmail.com) | [a.hatem@student.ust.edu](mailto:a.hatem@student.ust.edu)  
 Links: [Google Scholar](https://scholar.google.com/citations?user=XIzvxOUAAAAJ) | [ORCID (0009-0007-9681-5165)](https://orcid.org/0009-0007-9681-5165) | [ResearchGate](https://researchgate.net/profile/Abdulaziz-Hatem-3) | [LinkedIn](https://linkedin.com/in/abdulazizhatem)
