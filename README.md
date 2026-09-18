@@ -29,10 +29,11 @@ Department of Biomedical Engineering · Faculty of Engineering & Computing
 
 I am a Biomedical Engineering graduate from the University of Science and Technology (UST), Aden, graduating with a GPA of 4.0/4.0 and ranking 3rd among 40 students (Top 7.5%).
 
-My main interests are biomedical instrumentation, physiological signal processing, machine learning, and artificial intelligence in healthcare. Through my academic projects, I have worked on biopotential signal acquisition, analog circuits, signal processing, embedded systems, and assistive human-computer interfaces.
+My main interests are biomedical instrumentation, wearable health technologies, physiological signal processing, machine learning, and artificial intelligence in healthcare. Through my academic projects, I have worked on biopotential signal acquisition, analog circuits, signal processing, embedded systems, and assistive human-computer interfaces.
 
 ### Research Interests
-- Physiological Signal Processing (ECG, EOG, PPG)
+- Wearable Biosensors and Wearable Health Technologies
+- Physiological Signal Processing (ECG, EOG, PPG, EEG, EMG)
 - Biomedical Instrumentation and Low-Cost Medical Devices
 - Machine Learning and Deep Learning for Biomedical Applications
 - Artificial Intelligence in Healthcare
@@ -40,7 +41,7 @@ My main interests are biomedical instrumentation, physiological signal processin
 - Embedded Systems and TinyML for Biomedical Applications
 
 ### Academic Goal
-I am interested in pursuing M.Sc. and Ph.D. studies in Biomedical Engineering, Neural Engineering, and Intelligent Health Systems, with a particular interest in physiological signals, biomedical devices, machine learning, and AI-assisted healthcare.
+My goal is to pursue graduate studies through an M.Sc. followed by a Ph.D., developing a long-term research career in Biomedical Engineering. I am particularly interested in research on wearable biosensing and physiological monitoring, combining biomedical devices, biosignal processing, machine learning, and artificial intelligence to develop practical healthcare technologies.
 
 ---
 
