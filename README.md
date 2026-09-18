@@ -27,9 +27,9 @@ Department of Biomedical Engineering · Faculty of Engineering & Computing
 
 ## 📌 Executive Academic Profile
 
-I am a Biomedical Engineer graduating with highest academic distinction (**GPA: 4.0/4.0, Ranked 3rd/40, Top 7.5%**) from the University of Science and Technology (UST), Aden. My research and engineering focus centers on **end-to-end biomedical instrumentation and lightweight edge intelligence**: bridging sub-microvolt analog biopotential acquisition (ECG, EOG, PPG) with real-time digital signal processing, embedded firmware, and tiny machine learning models deployable on ultra-low-power microcontrollers.
+I am a Biomedical Engineering student graduating with highest academic distinction (**GPA: 4.0/4.0, Ranked 3rd/40, Top 7.5%**) from the University of Science and Technology (UST), Aden. My engineering focus is on **biomedical instrumentation and embedded machine learning**, bridging analog biopotential acquisition (ECG, EOG, PPG) with digital signal processing and machine learning models for low-power microcontrollers.
 
-* **Research Interests:** Physiological Signal Processing (ECG/EOG/PPG), Brain-Computer & Assistive Human-Computer Interfaces (HCI/BCI), TinyML / Edge Machine Learning for Point-of-Care Diagnostics, and Low-Cost Medical Instrumentation.
+* **Research Interests:** Physiological Signal Processing (ECG/EOG/PPG), Brain-Computer & Assistive Human-Computer Interfaces (HCI/BCI), Embedded Machine Learning for Point-of-Care Diagnostics, and Low-Cost Medical Instrumentation.
 * **Aspiration:** Seeking M.Sc. / Ph.D. graduate study and research scholarship opportunities in Biomedical Engineering, Neural Engineering, and Intelligent Health Systems.
 
 ---
@@ -60,7 +60,7 @@ I am a Biomedical Engineer graduating with highest academic distinction (**GPA: 
 
 ## 🔬 Featured Research & Engineering Repositories
 
-Each project represents an end-to-end engineered artifact combining custom electronic hardware, validated signal processing, and reproducible evaluation benchmarks:
+Each project combines custom electronic hardware, signal processing, and performance evaluation:
 
 ### 1. [graduation-project](https://github.com/Abdulaziz-kh-Hatem/graduation-project)
 > **Undergraduate Graduation Project | Graded 100% (Distinction with Highest Honors) | Team Lead**  
@@ -75,10 +75,10 @@ Each project represents an end-to-end engineered artifact combining custom elect
 ---
 
 ### 2. [ecg-pvc-detection-esp32](https://github.com/Abdulaziz-kh-Hatem/ecg-pvc-detection-esp32)
-> **Biosignal Machine Learning & TinyML | Undergraduate Research Project**  
-> *Subject-Specific Premature Ventricular Contraction (PVC) Detection via Dual-Voting Feature Consensus & Lightweight Decision Trees*
+> **Biosignal Machine Learning & Embedded Systems | Undergraduate Research Project**  
+> *Subject-Specific Premature Ventricular Contraction (PVC) Detection via Dual-Voting Feature Consensus & Decision Trees*
 
-* **Architecture:** Evaluated on 36,701 beats from 15 MIT-BIH Arrhythmia Database records (Lead MLII). 3rd-order Butterworth bandpass (0.5–40 Hz), 300 ms beat extraction, patient-specific 50-beat median template baseline calibration. Extracted 32 features (RR-intervals, morphology, Hjorth complexity/mobility, template correlation). Dual-voting consensus (Random Forest Gini importance + XGBoost gain) selects top 12 features.
+* **Architecture:** Evaluated on 36,701 beats from 15 MIT-BIH Arrhythmia Database records (Lead MLII). 3rd-order Butterworth bandpass filter (0.5–40 Hz), 300 ms beat extraction, and patient-specific 50-beat median template baseline calibration. Extracted 32 features (RR-intervals, morphology, Hjorth complexity/mobility, template correlation). Dual-voting consensus (Random Forest Gini importance + XGBoost gain) selects the top 12 features.
 * **Benchmark Performance:**
   * **99.69%** mean accuracy | **98.19%** mean sensitivity | **99.82%** mean specificity (chronological held-out test splits)
   * Memory footprint **< 3 KB** — enables high-accuracy real-time arrhythmia telemetry on low-cost microcontrollers (ESP32 / ARM Cortex-M)
@@ -89,10 +89,10 @@ Each project represents an end-to-end engineered artifact combining custom elect
 
 ### 3. [eog-acquisition-platform](https://github.com/Abdulaziz-kh-Hatem/eog-acquisition-platform)
 > **Peer-Reviewed Hardware Platform | Published in EEA Journal (2026)**  
-> *Ultra-Low-Cost (< $15 USD) Analog Front-End Electronic Platform for High-Fidelity Electrooculography*
+> *Low-Cost Analog Front-End Electronic Platform for Electrooculography*
 
 * **Architecture:** Complete analog conditioning circuit built around the AD620 instrumentation amplifier ($R_G = 100\,\Omega$, gain $495\times$), TL072 active bandpass (1.6–16 Hz), active low-pass (16 Hz cutoff), and level-shifting stage for 0–5V ADC dynamic range. Galvanically isolated via dual 9V battery supply.
-* **Validation:** Full oscilloscope bench testing verifying complete rejection of 50 Hz powerline interference; real-time MATLAB acquisition at 250 Hz.
+* **Validation:** Oscilloscope bench testing verifying complete rejection of 50 Hz powerline interference; real-time MATLAB acquisition at 250 Hz.
 * **Artifacts & Demos:** [Repository](https://github.com/Abdulaziz-kh-Hatem/eog-acquisition-platform) · [Paper DOI (10.46904/eea.26.74.2.1108016)](https://doi.org/10.46904/eea.26.74.2.1108016) · [Live Oscilloscope Demonstration (YouTube)](https://youtu.be/ZO9QT6c9rzA)
 
 ---
@@ -101,8 +101,8 @@ Each project represents an end-to-end engineered artifact combining custom elect
 > **Biomedical Instrumentation & Circuit Design**  
 > *Discrete Low-Cost ECG Analog Front-End (AFE) for Physiological Telemetry*
 
-* **Architecture:** Discrete biopotential amplifier designed with AD620 for high CMRR, coupled with active cascaded TL072 / LM741 operational amplifier stages to strip motion artifacts and high-frequency EMG noise.
-* **Validation:** Validated on human subjects using a Hantek digital oscilloscope, capturing pristine P-wave, QRS-complex, and T-wave morphologies.
+* **Architecture:** Discrete biopotential amplifier using an AD620 for high CMRR, coupled with active cascaded TL072 / LM741 operational amplifier stages to remove motion artifacts and high-frequency EMG noise.
+* **Validation:** Validated on human subjects using a Hantek digital oscilloscope, capturing clear P-wave, QRS-complex, and T-wave morphologies.
 * **Artifacts & Demos:** [Repository](https://github.com/Abdulaziz-kh-Hatem/ecg-acquisition-platform) · [Live Oscilloscope ECG Trace (YouTube)](https://youtu.be/GUkwhOJBexI)
 
 ---
@@ -111,7 +111,7 @@ Each project represents an end-to-end engineered artifact combining custom elect
 > **Rapid Prototyping & Hackathon Winner | 1st Place Trophy (UST Aden, Feb 2026)**  
 > *Dual-Channel ECG & PPG Physiological Acquisition Device Fabricated in 36 Hours*
 
-* **Architecture:** Simultaneous biopotential and optical sensing integrating an AD8232 ECG AFE and MAX30102 pulse oximetry module (I2C), microcontroller firmware with digital signal filtering, custom 3D-printed ergonomic handheld chassis, and real-time LCD metrics rendering.
+* **Architecture:** Simultaneous biopotential and optical sensing using an AD8232 ECG AFE and MAX30102 pulse oximetry module (I2C), microcontroller firmware with digital signal filtering, custom 3D-printed handheld chassis, and real-time LCD metrics display.
 * **Artifacts & Demos:** [Repository](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype) · [Live Device Testing (YouTube)](https://youtu.be/_p6Nn98H_nc)
 
 ---
