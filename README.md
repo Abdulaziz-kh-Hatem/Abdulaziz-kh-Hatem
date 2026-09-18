@@ -25,12 +25,22 @@ Department of Biomedical Engineering · Faculty of Engineering & Computing
 
 ---
 
-## 📌 Executive Academic Profile
+## 📌 Academic Profile
 
-I am a Biomedical Engineering student graduating with highest academic distinction (**GPA: 4.0/4.0, Ranked 3rd/40, Top 7.5%**) from the University of Science and Technology (UST), Aden. My engineering focus is on **biomedical instrumentation and embedded machine learning**, bridging analog biopotential acquisition (ECG, EOG, PPG) with digital signal processing and machine learning models for low-power microcontrollers.
+I am a Biomedical Engineering graduate from the University of Science and Technology (UST), Aden, graduating with a GPA of 4.0/4.0 and ranking 3rd among 40 students (Top 7.5%).
 
-* **Research Interests:** Physiological Signal Processing (ECG/EOG/PPG), Brain-Computer & Assistive Human-Computer Interfaces (HCI/BCI), Embedded Machine Learning for Point-of-Care Diagnostics, and Low-Cost Medical Instrumentation.
-* **Aspiration:** Seeking M.Sc. / Ph.D. graduate study and research scholarship opportunities in Biomedical Engineering, Neural Engineering, and Intelligent Health Systems.
+My main interests are biomedical instrumentation, physiological signal processing, machine learning, and artificial intelligence in healthcare. Through my academic projects, I have worked on biopotential signal acquisition, analog circuits, signal processing, embedded systems, and assistive human-computer interfaces.
+
+### Research Interests
+- Physiological Signal Processing (ECG, EOG, PPG)
+- Biomedical Instrumentation and Low-Cost Medical Devices
+- Machine Learning and Deep Learning for Biomedical Applications
+- Artificial Intelligence in Healthcare
+- Assistive Human-Computer Interfaces (HCI) and Brain-Computer Interfaces (BCI)
+- Embedded Systems and TinyML for Biomedical Applications
+
+### Academic Goal
+I am interested in pursuing M.Sc. and Ph.D. studies in Biomedical Engineering, Neural Engineering, and Intelligent Health Systems, with a particular interest in physiological signals, biomedical devices, machine learning, and AI-assisted healthcare.
 
 ---
 
