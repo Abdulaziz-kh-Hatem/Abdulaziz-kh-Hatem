@@ -1,7 +1,7 @@
 <div align="center">
 
 # Abdulaziz K. A. Hatem, B.Eng.
-**Biomedical Engineer | Biosignal Processing, Assistive HCI & Embedded Machine Learning**
+**Biomedical Engineer | Biosignal Processing, Assistive HCI & Machine Learning**
 
 Department of Biomedical Engineering · Faculty of Engineering & Computing  
 **University of Science and Technology (UST), Aden, Yemen**
@@ -38,7 +38,7 @@ My main interests are biomedical instrumentation, wearable health technologies, 
 - Machine Learning and Deep Learning for Biomedical Applications
 - Artificial Intelligence in Healthcare
 - Assistive Human-Computer Interfaces (HCI) and Brain-Computer Interfaces (BCI)
-- Embedded Systems and TinyML for Biomedical Applications
+- TinyML for Biomedical Applications
 
 ### Academic Goal
 My goal is to pursue graduate studies through an M.Sc. followed by a Ph.D., developing a long-term research career in Biomedical Engineering. I am particularly interested in research on wearable biosensing and physiological monitoring, combining biomedical devices, biosignal processing, machine learning, and artificial intelligence to develop practical healthcare technologies.
