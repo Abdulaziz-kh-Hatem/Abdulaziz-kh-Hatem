@@ -17,7 +17,7 @@ Department of Biomedical Engineering · Faculty of Engineering & Computing
 
 [![Academic Rank](https://img.shields.io/badge/Class_Rank-Top_7.5%25_(3rd%2F40)-blue?style=flat-square&logo=mortarboard)](https://github.com/Abdulaziz-kh-Hatem)
 [![GPA](https://img.shields.io/badge/Cumulative_GPA-4.0%20%2F%204.0_(92.0%25)-darkgreen?style=flat-square)](https://github.com/Abdulaziz-kh-Hatem)
-[![Capstone Thesis](https://img.shields.io/badge/Capstone_Grade-100%25_(Highest_Distinction)-gold?style=flat-square)](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard)
+[![Capstone Thesis](https://img.shields.io/badge/Capstone_Grade-100%25_(Highest_Distinction)-gold?style=flat-square)](https://github.com/Abdulaziz-kh-Hatem/graduation-project)
 [![Journal Publication](https://img.shields.io/badge/Publication-1st_Author_EEA_2026-teal?style=flat-square)](https://doi.org/10.46904/eea.26.74.2.1108016)
 [![Hackathon Award](https://img.shields.io/badge/Hackathon-1st_Place_Winner_2026-purple?style=flat-square)](https://github.com/Abdulaziz-kh-Hatem/nabdh-vital-signs-prototype)
 
@@ -62,16 +62,15 @@ I am a Biomedical Engineer graduating with highest academic distinction (**GPA: 
 
 Each project represents an end-to-end engineered artifact combining custom electronic hardware, validated signal processing, and reproducible evaluation benchmarks:
 
-### 1. [eog-assistive-hci-keyboard](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard)
-> **Senior Capstone Project | Graded 100% (Distinction with Highest Honors) | Team Lead**  
+### 1. [graduation-project](https://github.com/Abdulaziz-kh-Hatem/graduation-project)
+> **Undergraduate Graduation Project | Graded 100% (Distinction with Highest Honors) | Team Lead**  
 > *Integrated Electrooculography (EOG) Platform for Motorized Wheelchair Navigation & Arabic Virtual Keyboard*
 
 * **Architecture:** 4-stage discrete Analog Front-End (AD620 instrumentation amp, active TL072 0.8–30 Hz bandpass filter, 50 Hz twin-T notch filter, gain adjustable 600×–6000×), Arduino ATmega328P 10-bit ADC, real-time MATLAB DSP pipeline, HC-05 Bluetooth telemetry, and 3D-printed chassis with ultrasonic safety override.
-* **Clinical / Benchmark Performance:** Evaluated with $N=5$ participants over 100 continuous trials:
+* **Clinical / Benchmark Performance:** Evaluated with N = 5 participants over 100 continuous trials:
   * **94.0%** directional control accuracy
-  * **143 ms** processing latency | **213 ms** total system actuation latency
   * **16.0 characters/minute** sustained typing speed on custom Arabic hierarchical virtual keyboard
-* **Artifacts & Demos:** [Repository](https://github.com/Abdulaziz-kh-Hatem/eog-assistive-hci-keyboard) · [Typing Demo (YouTube)](https://youtu.be/_7P_xF_lJTU) · [Wheelchair Hardware Demo (YouTube)](https://youtu.be/ZO9QT6c9rzA)
+* **Artifacts & Demos:** [Repository](https://github.com/Abdulaziz-kh-Hatem/graduation-project) · [Typing Demo (YouTube)](https://youtu.be/_7P_xF_lJTU) · [Wheelchair Hardware Demo (YouTube)](https://youtube.com/shorts/MNgpAQf11o8?si=srUkkPCUByLsF-Y1)
 
 ---
 
